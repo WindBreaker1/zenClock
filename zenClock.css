@@ -1,0 +1,97 @@
+body {
+  background-image: url("attachments/rain1.gif");
+  background-repeat: no-repeat;
+  background-size: 110%;
+
+  font-family: monospace;
+}
+
+#clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 50px;
+  letter-spacing: 7px;
+  color: white;
+  opacity: 0.8;
+}
+
+#rectangle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0.6;
+  width: 400px;
+  height: 150px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+#change-background-button {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+  width: 250px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+
+  background-color: rgba(0, 0, 0, 0.1);
+  opacity: 0.6;
+
+  font-family: monospace;
+  font-size: 20px;
+  color: white;
+
+  transition: background-color 0.5s, border 0.5s, color 0.5s;
+}
+
+#change-background-button:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 2px solid rgb(183, 183, 183);
+  color: rgb(183, 183, 183);
+}
+
+#change-background-button:active {
+  width: 230px;
+  height: 35px;
+}
+
+#format-button {
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); 
+
+  width: 100px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+
+  background-color: rgba(0, 0, 0, 0.1);
+  opacity: 0.6;
+
+  font-family: monospace;
+  font-size: 20px;
+  color: white;
+
+  transition: background-color 0.5s, border 0.5s, color 0.5s;
+}
+
+#format-button:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 2px solid rgb(183, 183, 183);
+  color: rgb(183, 183, 183);
+}
+
+#format-button:active {
+  width: 90px;
+  height: 35px;
+}
